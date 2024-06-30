@@ -1,2 +1,2 @@
-require 'nurtai'
-require 'config.lazy'
+require("nurtai")
+require("config.lazy")
