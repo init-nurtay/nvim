@@ -5,6 +5,7 @@ vim.opt.hlsearch = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 vim.g.mapleader = " "
+
 -- Setting :Ex and :w :q
 vim.keymap.set("n", "<leader>ve", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>vw", vim.cmd.write)
