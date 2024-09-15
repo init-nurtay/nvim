@@ -6,6 +6,9 @@ return { -- Highlight, edit, and navigate code
     -- Autoinstall languages that are not installed
     auto_install = true,
     highlight = {
+      indent = {
+        enable = true,
+      },
       enable = true,
       -- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
       --  If you are experiencing weird indenting issues, add the language to
